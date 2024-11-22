@@ -1,0 +1,369 @@
+
+/*===============Common CSS Link======================*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;    
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+ul{
+    list-style: none;
+}
+.container{
+    max-width: 1320px;
+    margin: 0 auto;
+}
+/*===============Common CSS End======================*/
+/*===============Navbar CSS Start======================*/
+nav{
+    position: absolute;
+    width: 100%;
+    z-index: 99999;
+    padding: 28px 0;
+}
+nav .container{
+    display: flex;
+    justify-content:space-between;
+    align-items:center;
+}
+nav .container ul{
+    display: flex;
+    column-gap: 60px;
+    align-items:center;
+}
+nav .container ul li a{
+    color: #ffff;
+    text-transform: capitalize;
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    transition: 0.5s;
+}
+nav .container ul li a.active{
+    color: #000;
+}
+nav .container ul li a:hover{
+    color: #000;
+}
+/*===============Navbar CSS End======================*/
+/*===============Banner CSS Start======================*/
+#bannerPart{
+    padding: 462px 0;
+    /* background: #b36565; */
+    background: url(../images/banner.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#bannerPart .container p{
+    color: #FFC178;
+    font-weight: 700;
+    font-size: 18px;
+    font-family: "Open Sans", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 7px;
+    margin-bottom: 37px;
+}
+#bannerPart .container h1{
+    color: #fff;
+    font-weight: 400;
+    font-size: 88px;
+    line-height: 100px;
+    font-family: "Open Sans", sans-serif;
+    text-transform: capitalize;
+    max-width: 860px;
+}
+#bannerPart .container h1 span{
+    font-weight: 700;
+    font-size: 96px;
+}
+/*===============Banner CSS End======================*/
+/*===============Holiday CSS Start======================*/
+#holiday{
+    padding-top: 319px;
+    background: #000000;
+}
+#holiday .container{
+    display: flex;
+    column-gap: 23px;
+}
+#holiday .container .left{
+    background: #ffffff;
+    width: 50%;
+}
+#holiday .container .left img{
+    width: 100%;
+    height: 713px;
+    object-fit: cover; 
+    display: block;
+}
+#holiday .container .right{
+    width: 50%;
+    padding-top: 45px;
+}
+#holiday .container .right .title{
+   color: #FBD784;
+   font-size: 18px;
+   font-weight: 700;
+   letter-spacing: 6px;
+   font-family: "Open Sans", sans-serif;
+   text-transform: uppercase;
+
+}
+#holiday .container .right h2{
+    color: #fff;
+    font-size: 64px;
+    font-weight: 700;
+    font-family: "Open Sans", sans-serif;
+    text-transform: uppercase;
+    max-width: 496px;
+    margin: 13px 0;
+ 
+ }
+ #holiday .container .right .details{
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600; 
+    line-height: 32px;
+    font-family: "Open Sans", sans-serif;
+    text-transform: uppercase;
+    max-width: 587px; 
+    margin-bottom: 66px;
+ }
+ #holiday .container .right button{
+    color: #FBD784;
+    font-size: 18px;
+    font-weight: 700; 
+    font-family: "Open Sans", sans-serif;
+    text-transform: uppercase;
+    border: 0;
+    background: transparent;
+    cursor: pointer;
+ }
+/*===============Holyday CSS End======================*/
+/*===============Bromo CSS Start======================*/
+#bromo{
+    background: #000000;
+    padding-top: 295px;
+}
+#bromo .container{
+    background: url(../images/bromo.jpg) no-repeat center / cover;
+    padding: 559px 0 33px;
+    text-align: center;
+}
+#bromo .container .title{
+    color: #FBD784;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 6px;
+    font-family: "Open Sans", sans-serif;
+    text-transform: uppercase;
+ 
+ }
+ #bromo .container h2{
+     color: #fff;
+     font-size: 64px;
+     font-weight: 700;
+     /* letter-spacing: 6px; */
+     font-family: "Open Sans", sans-serif;
+     text-transform: uppercase;
+     max-width: 932px;
+     margin: 13px auto 0;
+  
+  }
+  #bromo .container .details{
+     color: #fff;
+     font-size: 14px;
+     font-weight: 600; 
+     line-height: 32px;
+     font-family: "Open Sans", sans-serif;
+     text-transform: uppercase;
+     max-width: 893px; 
+     margin: 14px auto 26px;
+  }
+  #bromo .container button{
+     color: #FBD784;
+     font-size: 18px;
+     font-weight: 700; 
+     font-family: "Open Sans", sans-serif;
+     text-transform: uppercase;
+     border: 0;
+     background: transparent;
+     cursor: pointer;
+  }
+/*===============Bromo CSS End======================*/
+/*===============Culture CSS Start======================*/
+#holiday{
+    padding-top: 319px;
+    background: #000000;
+}
+#holiday .container{
+    display: flex;
+    column-gap: 23px;
+}
+.culture{
+    padding-top: 219px !important;
+}
+.culture .container{
+    display: flex;
+    column-gap: 23px;
+    flex-direction: row-reverse;
+
+}
+#holiday .container .left{
+    background: #ffffff;
+    width: 50%;
+}
+#holiday .container .left img{
+    width: 100%;
+    height: 799px;
+    object-fit: cover; 
+    display: block;
+}
+#holiday .container .right{
+    width: 50%;
+    padding-top: 153px;
+}
+#holiday .container .right .title{
+   color: #FBD784;
+   font-size: 18px;
+   font-weight: 700;
+   letter-spacing: 6px;
+   font-family: "Open Sans", sans-serif;
+   text-transform: uppercase;
+
+}
+#holiday .container .right h2{
+    color: #fff;
+    font-size: 64px;
+    font-weight: 700;
+    font-family: "Open Sans", sans-serif;
+    text-transform: uppercase;
+    max-width: 663px;
+    margin: 19px 0;
+ 
+ }
+ #holiday .container .right .details{
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400; 
+    line-height: 32px;
+    font-family: "Open Sans", sans-serif;
+    text-transform: uppercase;
+    max-width: 655px; 
+    margin-bottom: 47px;
+ }
+ #holiday .container .right button{
+    color: #FBD784;
+    font-size: 18px;
+    font-weight: 700; 
+    font-family: "Open Sans", sans-serif;
+    text-transform: uppercase;
+    border: 0;
+    background: transparent;
+    cursor: pointer;
+ }
+/*===============Culture CSS End======================*/
+/*===============Footer CSS Start======================*/
+footer{
+    background: #000000;
+    padding: 190px 0 0 0;
+}
+footer .container{
+    display: flex;
+}
+footer .container .left{
+    width: 50%;
+}
+footer .container .left h2{
+    max-width: 405px;
+    font-size: 36px;
+    font-weight: 700;
+    font-family: "Open Sans", sans-serif;
+    letter-spacing: -0.3px;
+    color: #fff;
+    margin: 82px 0 48px;
+}
+footer .container .left .termCondition{
+    font-size: 15px;
+    font-weight: 400;
+    font-family: "Open Sans", sans-serif;
+    letter-spacing: -0.2px;
+    color: #fff;
+    margin-bottom: 35px;
+}
+footer .container .left ul{
+    display: flex;
+    column-gap: 29px;
+}
+footer .container .left ul li a{
+    color: #ffff;
+    font-size: 15px;
+}
+footer .container .right{
+    width: 50%;
+}
+footer .container .right .top {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    column-gap: 18px;
+}
+footer .container .right .top p{
+    font-size: 22px;
+    font-weight: 400;
+    font-family: "Open Sans", sans-serif;
+    letter-spacing: -0.3px;
+    color: #fff;
+}
+footer .container .right .top button{
+    font-size: 17px;
+    font-weight: 700;
+    font-family: "Open Sans", sans-serif;
+    background: #FFA343;
+    color: #000000;
+    border: 0;
+    cursor: pointer;
+    border-radius: 10px;
+    padding: 18px 67px;
+}
+footer .container .right .bottom{
+    display: flex;
+    margin-top: 58px;
+    /* justify-content: space-between; */
+}
+footer .container .right .bottom ul:nth-child(2){
+    margin: 0 139px 0 84px;
+}
+footer .container .right .bottom ul h3{
+    color: #FFD1A0;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: "Open Sans", sans-serif;
+    margin-bottom: 11px;
+}
+footer .container .right .bottom ul li a{
+    color: #ffffff;
+    font-size: 19px;
+    font-weight: 400;
+    font-family: "Open Sans", sans-serif;
+    margin-bottom: 8px;
+    letter-spacing: -0.2px;
+
+}
+
+footer .copyright{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 32px;
+    font-family: "Open Sans", sans-serif;
+    text-align: center;
+    padding: 30px 0;
+    background: #000000;
+    margin-top: 124px;
+}
+/*===============Footer CSS End======================*/
